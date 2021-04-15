@@ -13,3 +13,5 @@ BIND_ADDRESS = ('0.0.0.0', 8999) - BIND Address and Port
 BACKLOG = 15 BACKLOG (Queue of question memory/forgotten)
 
 CHILDNUM = 50 (number of parallel answer-child threads)
+
+DOCKER IMAGE: Coming Soon... one two days...
