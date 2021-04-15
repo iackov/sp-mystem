@@ -8,14 +8,14 @@ EDIT:
 
 BIND_ADDRESS = ('0.0.0.0', 8999) - BIND Address and Port BACKLOG = 15 BACKLOG (Queue of question memory/forgotten) CHILDNUM = 50 (number of parallel answer-child threads) DOCKER IMAGE: Coming Soon... one two days...
 
-USE: SERVER-SIDE: python2.7 mystem_server.py
+USE SERVER-SIDE: python2.7 mystem_server.py
 
-CLIENT-SIDE: nc <SERVER_IP> 8999<br>
+USE CLIENT-SIDE: nc <SERVER_IP> 8999
  -->ну вы и придурки<br>
- <--{"analysis":[{"lex":"ну"}],"text":"ну"}<br>
- <--{"text":" "} <--{"analysis":[{"lex":"вы"}],"text":"вы"}<br>
- <--{"text":" "} <--{"analysis":[{"lex":"и"}],"text":"и"}<br>
- <--{"text":" "} <--{"analysis":[{"lex":"придурок"}],"text":"придурки"}<br>
- <--{"text":"\n"} <--<|><br>
+ <--{"analysis":[{"lex":"ну"}],"text":"ну"}
+ <--{"text":" "} <--{"analysis":[{"lex":"вы"}],"text":"вы"}
+ <--{"text":" "} <--{"analysis":[{"lex":"и"}],"text":"и"}
+ <--{"text":" "} <--{"analysis":[{"lex":"придурок"}],"text":"придурки"}
+ <--{"text":"\n"} <--<|
 
 END: See you soon..
