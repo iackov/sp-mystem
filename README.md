@@ -9,11 +9,8 @@ lanch scrypt with python2
 EDIT:
 
 BIND_ADDRESS = ('0.0.0.0', 8999) - BIND Address and Port
-
 BACKLOG = 15 BACKLOG (Queue of question memory/forgotten)
-
 CHILDNUM = 50 (number of parallel answer-child threads)
-
 DOCKER IMAGE: Coming Soon... one two days...
 
 USE:
@@ -22,23 +19,13 @@ python2.7 mystem_server.py
 
 CLIENT-SIDE:
 nc <SERVER_IP> 8999 
-
 ну вы и придурки
-
 {"analysis":[{"lex":"ну"}],"text":"ну"}
-
 {"text":" "}
-
 {"analysis":[{"lex":"вы"}],"text":"вы"}
-
 {"text":" "}
-
 {"analysis":[{"lex":"и"}],"text":"и"}
-
 {"text":" "}
-
 {"analysis":[{"lex":"придурок"}],"text":"придурки"}
-
 {"text":"\n"}
-
 <|>
