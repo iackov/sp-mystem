@@ -4,7 +4,7 @@ Simplest multi-semi-questional .py server-side layer for "Yandex mystem binary" 
 Yep. It works! But how and why? - Big question ))) ;)
 
 USE:
-lanch scrypt python2
+lanch scrypt with python2
 
 EDIT:
 
