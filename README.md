@@ -19,18 +19,16 @@ USE: SERVER-SIDE: python2.7 mystem_server.py
 
 CLIENT-SIDE: nc <SERVER_IP> 8999
 
--->ну вы и придурки
+-->ну вы и умнички
 
 <--{"analysis":[{"lex":"ну"}],"text":"ну"}
 
 <--{"text":" "} <--{"analysis":[{"lex":"вы"}],"text":"вы"} <--{"text":" "} <--{"analysis":[{"lex":"и"}],"text":"и"}
 
-<--{"text":" "} <--{"analysis":[{"lex":"придурок"}],"text":"придурки"}
+<--{"text":" "} <--{"analysis":[{"lex":"умничкa"}],"text":"умнички"}
 
 <--{"text":"\n"} <--<|>
 
-
-END: See you soon..
 
 DOCKER IMAGE and executable Releases for Windows and Linux: Coming Soon... now - really!
 
