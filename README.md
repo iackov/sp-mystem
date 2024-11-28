@@ -32,5 +32,5 @@ CLIENT-SIDE: nc <SERVER_IP> 8999
 
 END: See you soon..
 
-DOCKER IMAGE: Coming Soon... one two days...
+DOCKER IMAGE and executable Releases for Windows and Linux: Coming Soon... now - really!
 
